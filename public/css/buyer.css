@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+
+}
+.search-container {
+    max-width: 400px;
+    margin-left: 400px;;
+    text-align: center;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    box-sizing:100px;
+}
+
+.suggestions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.suggestion-item:hover {
+    background-color: #f4f4f4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.car {
+    border: 2px solid black;
+    margin: 100px;
+    padding: 100px;
+    margin-left:350px;
+    max-width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.car img {
+    max-width: 100%;
+    height: auto;
+}
+
+.car-details {
+    margin-top: 10px;
+}
+
+.watch-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.watch {
+    flex: 0 0 auto;
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    text-align: center;
+    margin-left:350px;
+}
+
+.watch img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.buy-now-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-now-btn:hover {
+    background-color: #45a049;
+}
